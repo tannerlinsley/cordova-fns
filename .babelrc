@@ -1,0 +1,25 @@
+{
+  "presets": [
+    [
+      "latest",
+      {
+        "loose": true,
+        "modules": false
+      }
+    ],
+    "stage-0",
+    "stage-3",
+    "react"
+  ],
+  "plugins": [
+    [
+      "transform-runtime",
+      {
+        "helpers": false,
+        "polyfill": false,
+        "regenerator": true,
+        "moduleName": "babel-runtime"
+      }
+    ]
+  ]
+}
