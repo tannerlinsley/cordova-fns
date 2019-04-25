@@ -1,5 +1,6 @@
 export { DeviceReady } from './plugins/Device'
 export { GeoGetCurrentPosition, GeoWatchPosition } from './plugins/Geolocation'
+export { InAppBrowserOpen } from './plugins/InAppBrowser'
 export {
   KeyboardHideAccessoryBar,
   KeyboardClose,
